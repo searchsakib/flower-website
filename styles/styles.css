@@ -3,3 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* common style */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* header style */
+.banner-section {
+  display: flex;
+  align-items: center;
+  background: rgba(229, 84, 115, 0.1);
+  padding: 0px 210px;
+}
+.banner-title {
+  font-size: 80px;
+  font-weight: 800;
+  color: #272727;
+}
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 32px 0;
+  /* width: 650px; */
+}
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  background: #e55473;
+  border-radius: 8px;
+  border: none;
+  padding: 20px 43px;
+}
+.banner-img {
+  padding-top: 50px;
+}
