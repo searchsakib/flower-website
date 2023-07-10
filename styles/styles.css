@@ -39,6 +39,8 @@ body {
 .banner-img {
   padding-top: 50px;
 }
+
+/* Featured flowers style  */
 .featured-text {
   text-align: center;
   margin-top: 150px;
@@ -55,4 +57,26 @@ body {
   font-size: 18px;
   font-weight: 400;
   margin-top: 24px;
+}
+
+.flowwer-img {
+  width: 100%;
+}
+.flower-card {
+  width: 420px;
+  height: 483px;
+  /* height: 350px;
+  width: 250px; */
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 110px 75px 0px 75px;
+}
+.flower-name {
+  text-align: center;
+  margin-top: 20px;
+
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
 }
