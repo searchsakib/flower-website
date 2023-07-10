@@ -16,7 +16,7 @@ body {
   padding: 0px 210px;
 }
 .banner-title {
-  font-size: 80px;
+  font-size: 79px;
   font-weight: 800;
   color: #272727;
 }
@@ -40,7 +40,7 @@ body {
   padding-top: 50px;
 }
 
-/* Featured flowers style  */
+/* Featured flowers text style  */
 .featured-text {
   text-align: center;
   margin-top: 150px;
@@ -57,24 +57,63 @@ body {
   font-size: 18px;
   font-weight: 400;
   margin-top: 24px;
+  margin-bottom: 50px;
+}
+/* Featured flower card style */
+.flower-img,
+.flower-img-two,
+.flower-img-three {
+  width: 100%;
 }
 
-.flowwer-img {
-  width: 100%;
+.flower-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 .flower-card {
   width: 420px;
   height: 483px;
-  /* height: 350px;
-  width: 250px; */
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   padding: 110px 75px 0px 75px;
 }
+.flower-card-two {
+  background: rgba(5, 151, 160, 0.15);
+  width: 420px;
+  height: 483px;
+  border-radius: 300px 300px 0px 0px;
+  padding: 117px 47px 51px 47px;
+}
+.flower-card-three {
+  background: rgba(71, 125, 17, 0.15);
+  width: 420px;
+  height: 483px;
+  border-radius: 300px 300px 0px 0px;
+  padding: 77px 75px 0px 75px;
+}
+
 .flower-name {
   text-align: center;
   margin-top: 20px;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
 
+.flower-name-two {
+  text-align: center;
+  margin-top: 59px;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+.flower-name-three {
+  text-align: center;
+  margin-top: 20px;
   color: #272727;
   font-size: 24px;
   font-weight: 700;
