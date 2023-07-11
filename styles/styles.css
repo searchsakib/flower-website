@@ -209,7 +209,7 @@ body {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
-  padding: 40px 0px;
+  padding: 50px 0px 50px 0px;
 }
 .custom-name {
   color: #000;
@@ -224,7 +224,10 @@ body {
   justify-content: center;
   gap: 31px;
 }
-
+.btn-div {
+  text-align: center;
+  margin: 50px 0px;
+}
 /* Customisable Bouquet section style ends */
 
 /* latest deal style  */
