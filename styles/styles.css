@@ -12,8 +12,9 @@ body {
 .banner-section {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   background: rgba(229, 84, 115, 0.1);
-  padding: 0px 210px;
+  padding: 0px 100px 0px 150px;
 }
 .banner-title {
   font-size: 79px;
