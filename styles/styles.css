@@ -10,11 +10,15 @@ body {
 
 /* header style */
 .banner-section {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   background: rgba(229, 84, 115, 0.1);
   padding: 0px 100px 0px 150px;
+}
+.banner-img img {
+  height: 820px;
 }
 .banner-title {
   font-size: 79px;
