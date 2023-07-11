@@ -26,6 +26,7 @@ body {
   font-style: normal;
   font-weight: 400;
   margin: 32px 0;
+  line-height: 30px;
   /* width: 650px; */
 }
 .btn-primary {
@@ -34,7 +35,7 @@ body {
   background: #e55473;
   border-radius: 8px;
   border: none;
-  padding: 20px 43px;
+  padding: 20px 46px;
 }
 .banner-img {
   padding-top: 50px;
@@ -121,3 +122,38 @@ body {
 }
 
 /* Hot Deal discount Section style */
+.discount-section {
+  height: 620px;
+  margin-top: 200px;
+  padding: 100px 330px 100px 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgba(229, 84, 115, 0.05);
+  gap: 140px;
+}
+.discount-text {
+  text-align: center;
+  padding: 230px 0px 162px 0px;
+}
+.discount-title {
+  width: 100%;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.colored {
+  color: #e55473;
+}
+.discount-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 24px 0px 24px 0px;
+  line-height: 30px;
+}
+.discount-img {
+  width: 280px;
+  height: 360px;
+}
