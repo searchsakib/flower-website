@@ -179,6 +179,54 @@ body {
   gap: 20px;
 }
 
+/* Customisable Bouquet section style */
+.custom-bouquet {
+  background-color: rgba(229, 84, 115, 0.05);
+  height: 584px;
+  margin: 125px 0px;
+}
+.flower-svg {
+  height: 140px;
+  width: 140px;
+}
+.custom-card {
+  background-color: rgba(167, 33, 98, 0.15);
+  width: 400px;
+  height: 274px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.custom-card-2 {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.custom-card-3 {
+  background-color: rgba(71, 125, 17, 0.15);
+}
+.custom-title {
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 40px 0px;
+}
+.custom-name {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+.custom-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 31px;
+}
+
+/* Customisable Bouquet section style ends */
+
 /* latest deal style  */
 .latest-deals {
   background: url('../assets/Rectangle\ 9.png');
